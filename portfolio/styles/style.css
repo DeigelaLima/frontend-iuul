@@ -7,7 +7,7 @@
 
 .navbar {
     padding: 10px;
-} 
+}
 
 .nav-link {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -66,7 +66,7 @@
 
 .icons img {
     height: 40px;
-    width: 40px; 
+    width: 40px;
     margin-right: 10px;
 }
 
@@ -80,7 +80,7 @@ body {
     max-width: 600px;
     margin: 170px 40px 40px 150px;
     padding: 40px;
-    background-color:rgb(214, 208, 208);
+    background-color: rgb(214, 208, 208);
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 
@@ -90,7 +90,7 @@ body {
     max-width: 600px;
     margin: 80px 20px 20px 150px;
     padding: 40px;
-    background-color:rgb(214, 208, 208);
+    background-color: rgb(214, 208, 208);
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
@@ -108,13 +108,17 @@ body {
     margin-bottom: 5px;
 }
 
+.education-image img {
+    margin-left: 20px;
+}
+
 /* CONTATO */
 .contact-information a {
     max-width: 600px;
     width: 60%;
     margin: 100px 0px 0px 0px;
     padding: 20px;
-    background-color:rgb(214, 208, 208);
+    background-color: rgb(214, 208, 208);
     border-radius: 10px;
     font-size: 35px;
     text-align: center;
@@ -125,7 +129,7 @@ body {
 }
 
 .container-forms {
-    max-width: 800px; 
+    max-width: 800px;
     padding: 25px;
     margin: 100px auto;
     background-color: rgb(214, 208, 208);
@@ -133,17 +137,17 @@ body {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-.container-forms h2{
+.container-forms h2 {
     text-align: center;
     padding-bottom: 4%;
 }
 
-.form-label span{
+.form-label span {
     font-weight: bold;
     font-size: 18px;
 }
 
-.btn-button button{
+.btn-button button {
     background-color: #5a5c5f;
     width: 150px;
     margin-left: 40%;
@@ -152,8 +156,8 @@ body {
 /* PORTFÓLIO */
 .container-figure {
     display: flex;
-    justify-content: flex-start; 
-    align-items: flex-start; 
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .figure {
@@ -165,9 +169,9 @@ body {
 .figure img {
     display: block;
     width: 550px;
-    height: 380px; 
+    height: 380px;
     margin: 80px 10px 10px 250px;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
 
 .container-figure .figure-img_3 {
@@ -177,7 +181,7 @@ body {
 .image-text-container {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
     margin-right: 80px;
 }
 
@@ -186,9 +190,9 @@ body {
 }
 
 .container-text {
-    padding: 20px; 
-    margin: 80px 0; 
-    max-width: 800px; 
+    padding: 20px;
+    margin: 80px 0;
+    max-width: 800px;
     border-radius: 10px;
     border: 1px solid #d1cbcb;
 }
@@ -208,8 +212,8 @@ body {
 }
 
 .pokeapi-highlight {
-    font-weight: bold; 
-    color: #7529a1; 
+    font-weight: bold;
+    color: #7529a1;
 }
 
 /* DESCRIÇÃO DAS TECNOLOGIAS */
@@ -218,11 +222,10 @@ body {
     margin: 20px;
     border-radius: 10px;
     border: 2px solid #585555;
-    background-color: #ebabab;
 }
 
 .col-md-6 span {
-    font-weight: bold;  
+    font-weight: bold;
 }
 
 .container-technologies p a {
@@ -231,4 +234,4 @@ body {
 
 .col-md-6 ul li a {
     text-decoration: none;
-  }
+}
