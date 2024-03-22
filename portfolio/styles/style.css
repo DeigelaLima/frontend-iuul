@@ -211,3 +211,24 @@ body {
     font-weight: bold; 
     color: #7529a1; 
 }
+
+/* DESCRIÇÃO DAS TECNOLOGIAS */
+.container-technologies {
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid #585555;
+    background-color: #ebabab;
+}
+
+.col-md-6 span {
+    font-weight: bold;  
+}
+
+.container-technologies p a {
+    text-decoration: none;
+}
+
+.col-md-6 ul li a {
+    text-decoration: none;
+  }
