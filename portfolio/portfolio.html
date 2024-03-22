@@ -1,73 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio</title>
     <link rel="stylesheet" href="style.css" />
 
-
     <!-- Bootstrap core CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-        
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-</head>
-<body>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <!-- Menu -->
     <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body"
+        data-bs-theme="dark"
+      >
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Deigela Lima</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="#">Deigela Lima</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html" target="_blank">Início</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="formacao.html" target="_blank">Formação</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="atuacao.html" target="_blank">Atuação</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="portfolio.html" target="_blank">Portfólio</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="contato.html" target="_blank">Contato</a>
-                </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link" aria-current="page" href="index.html" target="_blank"
+                  >Início</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="formacao.html" target="_blank"
+                  >Formação</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="atuacao.html" target="_blank"
+                  >Atuação</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="portfolio.html" target="_blank"
+                  >Portfólio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contato.html" target="_blank"
+                  >Contato</a
+                >
+              </li>
             </ul>
-            </div>
+          </div>
         </div>
-        </nav>
+      </nav>
     </header>
 
-    <footer class="fixed-bottom">
-        <div class="footer bg-dark" data-bs-theme="dark">
-          <a
-            class="footer-link"
-            href="https://www.linkedin.com/in/deigelalima/"
-            target="_blank"
-            >Linkedin</a
-          >
-          <a
-            class="footer-link"
-            href="https://github.com/DeigelaLima"
-            target="_blank"
-            >Github</a
-          >
-          <a
-            class="footer-link"
-            href="mailto:deigelalima@hotmail.com"
-            target="_blank"
-            >E-mail</a
-          >
+    <div class="container-figure">
+      <figure class="figure">
+        <div class="image-text-container">
+          <img
+            src="/assets/pokemons-home.png"
+            class="figure-img img-fluid rounded"
+            alt="pokedex"
+          />
+          <div class="container-text">
+            <p><span>Nome:</span> Pokédex </p>
+            <p>
+              <span>Descrição:</span> A Pokédex foi uma aplicação desenvolvida
+              durante o Bootcamp da Digital Innovation One - DIO, utilizando a
+              PokeApi para mostrar detalhes dos Pokémon, incluindo habilidades,
+              permitindo aos usuários explorar informações sobre cada Pokémon.
+            </p>
+            <p><span>Tecnologias:</span>
+            <ul>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
+              <li><a href="https://html.spec.whatwg.org/multipage/" target="_blank">HTML</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">CSS</a></li>
+              <li><a href="https://pokeapi.co/" target="_blank"><span class="pokeapi-highlight">PokeApi</span></a></li>
+            </ul></p>
+            <p>
+              <a href="https://github.com/DeigelaLima/js-developer-pokedex" target="_blank"
+                ><span>Link repositório</span></a
+              >
+            </p>
+          </div>
         </div>
-      </footer>
-</body>
+
+        <div class="image-text-container">
+          <img
+            src="/assets/buzzFeed-home.png"
+            class="figure-img img-fluid rounded"
+            alt="buzzFeed"
+          />
+          <div class="container-text">
+            <p><span>Nome:</span> BuzzFeed </p>
+              <p>
+                <span>Descrição:</span> O BuzzFeed oferece aos usuários a oportunidade única de explorar seu lado herói ou vilão.
+                 Ao percorrer o quizz, eles poderão selecionar seus poderes, preocupações, quem desejam salvar e seu foco. 
+                 No final desta emocionante jornada, cada usuário receberá seu perfil personalizado, 
+                 revelando se têm o coração de um herói ou a astúcia de um vilão!
+              </p>
+              <p><span>Tecnologias:</span>
+                <ul>
+                  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">TypeScript</a></li>
+                  <li><a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML</a></li>
+                  <li><a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS</a></li>
+                  <li><a href="https://angular.io/docs" target="_blank">Angular</a></li>
+                </ul></p>
+                <p>
+                  <a href="https://github.com/DeigelaLima/angular-buzzfeed" target="_blank"
+                    ><span>Link repositório</span></a
+                  >
+                </p>
+          </div>
+        </div>
+
+        <div class="image-text-container">
+          <img
+            src="/assets/TERTS-home.png"
+            class="figure-img_3 img-fluid rounded"
+            alt="Tutor de ensino"
+          />
+            <div class="container-text">
+              <p><span>Nome:</span> TERTS </p>
+                <p>
+                  <span>Descrição:</span> Tutor de Ensino para Refatoração de Test Smells (TERTS) 
+                  é uma aplicação educacional dedicada ao ensino de técnicas de refatoração de testes de unidades,
+                  focalizando na eliminação de "smells" para capacitar alunos de graduação nas áreas de tecnologia. 
+                  A ferramenta oferece aprendizado efetivo sobre quatro categorias de "test smells" - Assertion Roulette, 
+                  Duplicate Assert, Ignored Test e EagerTest - por meio de 12 exercícios específicos. 
+                </p>
+                <p><span>Tecnologias:</span>
+                  <ul>
+                    <li><a href="https://github.com/braziljs" target="_blank">JavaScript</a></li>
+                    <li><a href="https://www.typescriptlang.org/docs/" target="_blank">TypeScript</a></li>
+                    <li><a href="https://www.hostinger.com.br/tutoriais/o-que-e-html-conceitos-basicos" target="_blank">HTML</a></li>
+                    <li><a href="https://medium.mybridge.co/26-impressive-web-projects-built-with-css-only-4a4c2f773a21" target="_blank">CSS</a></li>
+                    <li><a href="https://nodejs.org/docs/latest/api/" target="_blank">NodeJS</a></li>
+                  </ul></p>
+                  <p>
+                    <a href="https://github.com/DeigelaLima/Tutor_de_ensino_TS" target="_blank"
+                      ><span>Link repositório</span></a
+                    >
+                  </p>
+            </div>
+          </div>
+        </div>
+      </figure>
+    </div>
+
+    <footer class="fixed-bottom">
+      <div class="footer bg-dark" data-bs-theme="dark">
+        <a
+          class="footer-link"
+          href="https://www.linkedin.com/in/deigelalima/"
+          target="_blank"
+        >
+          <div class="icons">
+            <img src="/assets/linkedin.png" alt="Ícone do Linkedin" />
+          </div>
+          Linkedin</a
+        >
+        <a
+          class="footer-link"
+          href="https://github.com/DeigelaLima"
+          target="_blank"
+        >
+          <div class="icons">
+            <img src="/assets/github.png" alt="Ícone do Github" />
+          </div>
+          Github</a
+        >
+        <a
+          class="footer-link"
+          href="mailto:deigelalima@hotmail.com"
+          target="_blank"
+        >
+          <div class="icons">
+            <img src="/assets/email.png" alt="Ícone do E-mail" />
+          </div>
+          E-mail</a
+        >
+      </div>
+    </footer>
+  </body>
 </html>
