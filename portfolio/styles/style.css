@@ -6,7 +6,7 @@
 }
 
 .navbar {
-    padding: 10px;
+    padding:10px;
 }
 
 .nav-link {
@@ -141,7 +141,7 @@ body {
 
 .container-forms {
     max-width: 800px;
-    padding: 25px;
+    padding: 20px;
     margin: 100px auto;
     background-color: rgb(214, 208, 208);
     border-radius: 10px;
