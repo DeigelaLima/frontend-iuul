@@ -77,8 +77,8 @@ body {
 }
 
 .education-container {
-    max-width: 600px;
-    margin: 170px 40px 40px 150px;
+    margin-left: 5%;
+    margin-top: 5%;
     padding: 40px;
     background-color: rgb(214, 208, 208);
     border-radius: 10px;
@@ -110,6 +110,17 @@ body {
 
 .education-image img {
     margin-left: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.education-video {
+    padding-top: 50px;
+    margin-left: 80px;
+}
+
+.col-md-6 {
+    padding: 100px;
 }
 
 /* CONTATO */
