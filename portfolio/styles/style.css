@@ -160,8 +160,6 @@ body {
 
 .btn-button button {
     background-color: #5a5c5f;
-    width: 150px;
-    margin-left: 40%;
 }
 
 /* PORTFÓLIO */
@@ -244,5 +242,24 @@ body {
 }
 
 .col-md-6 ul li a {
+    text-decoration: none;
+}
+
+/* LISTAGEM */
+
+.message {
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid #d1cbcb;
+}
+
+.button-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message-link a{
+    font-size: 100;
     text-decoration: none;
 }

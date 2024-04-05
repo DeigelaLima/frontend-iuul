@@ -3,25 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meu Portfólio</title>
-
-    <!-- <script src="scripts/scripts.js"></script> -->
+    <title>Listagem</title>
 
     <link rel="stylesheet" href="/styles/style.css" />
+
     <!-- Bootstrap core CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+
     <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    
   </head>
   <body>
-    <!-- Menu -->
     <header>
       <nav
         class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body"
@@ -44,30 +44,24 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a
-                  class="nav-link active" aria-current="page" href="index.html"
+                  class="nav-link active"
+                  aria-current="page"
+                  href="index.html"
                   target="_blank"
                   >Início</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/pages/formacao.html"
-                  >Formação</a
-                >
+                <a class="nav-link" href="/pages/formacao.html">Formação</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/pages/atuacao.html"
-                  >Atuação</a
-                >
+                <a class="nav-link" href="/pages/atuacao.html">Atuação</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/pages/portfolio.html"
-                  >Portfólio</a
-                >
+                <a class="nav-link" href="/pages/portfolio.html">Portfólio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/pages/contato.html"
-                  >Contato</a
-                >
+                <a class="nav-link" href="/pages/contato.html">Contato</a>
               </li>
             </ul>
           </div>
@@ -75,36 +69,23 @@
       </nav>
     </header>
 
-    <!-- Página principal -->
-    <main class="horizontal-div">
-      <div>
-        <img class="photo" src="/assets/Eu.jpg" alt="foto_perfil" />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="education-container">
+            <h2 class="education-title">Mensagens enviadas</h2>
+            <div id="messages-container" class="message">
+              <!-- Aqui serão exibidas as mensagens -->
+            </div>
+            <div class="text-center">
+              <button type="button" id="clear-messages-btn" class="btn btn-danger btn-lg">
+                Deletar Mensagens
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="content">
-        <p>
-          👩‍🎓 Graduanda em Ciência da Computação, concentro minha paixão na área
-          de engenharia de software, com destaque para requisitos, refatoração
-          de testes de unidade e ciência de dados.
-        </p>
-        <p>
-          Possuo habilidades nas tecnologias Java, Python, JavaScript,
-          TypeScript, Vue e Angular, alinhadas a uma abordagem prática em
-          projetos acadêmicos desafiadores.
-        </p>
-        <p>
-          Estou constantemente disposta a expandir meu conhecimento e me manter
-          atualizada em assuntos emergentes de tecnologia.
-        </p>
-        <p>
-          Minha dedicação vai além do ambiente acadêmico, pois estou sempre
-          aberta a aprender sobre novas tendências e avanços na área de TI.
-        </p>
-        <p>
-          Nos momentos livres, gosto de me aventurar montando quebra-cabeças e
-          andar de bicicleta. 🚴‍♀️🧩
-        </p>
-      </div>
-    </main>
+    </div>
 
     <footer class="fixed-bottom">
       <div class="footer bg-dark" data-bs-theme="dark">
@@ -140,5 +121,7 @@
         >
       </div>
     </footer>
+
+    <script src="/scripts/listagem.js"></script>
   </body>
 </html>

@@ -126,18 +126,19 @@
         <div class="col-md-6">
               <div class="container-forms">
                 <h2>Entre em Contato</h2>
-                <form action="/ContactServlet" method="post">
+                <form id="name-form">
                   <div class="mb-3">
-                    <label for="nome" class="form-label"><span>Nome:</span></label>
+                    <label for="name" class="form-label"><span>Nome:</span></label>
                     <input
                       type="text"
                       class="form-control"
-                      id="nome"
-                      name="nome"
+                      id="name"
+                      name="name"
+                      placeholder="Digite o seu nome"
                       required
                     />
                   </div>
-
+                  
                   <div class="mb-3">
                     <label for="email" class="form-label"><span>E-mail:</span></label>
                     <input
@@ -145,6 +146,7 @@
                       class="form-control"
                       id="email"
                       name="email"
+                      placeholder="Digite o seu e-mail"
                       required
                     />
                   </div>
@@ -153,15 +155,31 @@
                     <label for="mensagem" class="form-label"><span>Mensagem:</span></label>
                     <textarea
                       class="form-control"
-                      id="mensagem"
-                      name="mensagem"
+                      id="message"
+                      name="message"
                       rows="4"
+                      placeholder="Digite sua mensagem aqui"
                       required
                     ></textarea>
-                  </div>
-                  
-                  <div class="btn-button">
-                    <button type="submit" class="btn btn-primary">Enviar</button>
+                  </div> 
+                
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-4">
+                        <div class="message-link"> 
+
+                          <div class="btn-button d-grid gap-2 d-md-flex justify-content-md-end">  
+                            <a class="btn btn-secondary btn-lg" href="/pages/listagem.html" role="button">Ver Mensagens</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-5"></div>
+                      <div class="col-3">
+                        <div class="btn-button d-grid gap-2 d-md-flex justify-content-md-end">  
+                          <button type="submit" class="btn btn-primary btn-lg" id="send">Enviar</button>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </form>
               </div>
@@ -205,5 +223,6 @@
         >
       </div>
     </footer>
+    <script src="/scripts/contato.js"></script>
   </body>
 </html>
