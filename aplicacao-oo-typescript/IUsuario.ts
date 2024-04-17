@@ -1,3 +1,0 @@
-interface IUsuario {
-    autenticar(): boolean;
-}
